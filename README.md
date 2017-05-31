@@ -1,2 +1,2 @@
 # pwk-cheatsheet
-Usefull notes to have while attending Penetration Testing with Kali Linux course and the accompanying OSCP exam by Offensive Security
+Penetration Testing with Kali Linux (PWK) course and Offensive Security Certified Professional (OSCP) Cheat Sheet

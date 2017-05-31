@@ -75,11 +75,14 @@ $ gunzip access.log.gz
 $ tar -xzvf file.tar.gz
 ```
 -   Search command history  
-    ```shell history | grep phrase\_to\_search\_for```
+    ```shell 
+    history | grep phrase\_to\_search\_for
+    ```
 
 -   Have a service start at boot  
-    `systemctl enable ssh`
-
+    ```shell
+    systemctl enable ssh
+    ```
 -   Stop a service  
     `systemctl stop ssh`
 
@@ -180,10 +183,10 @@ $ tar -xzvf file.tar.gz
         `tcpdump -A -n 'tcp\[13\] = 24' -r password\_cracking\_filtered.pcap`
 
 -   IPTables deny traffic to ports except for Local Loopback
-
-    -   `iptables -A INPUT -p tcp --destination-port 13327 \\! -d $ip -j DROP  `
-        `iptables -A INPUT -p tcp --destination-port 4444 \\! -d $ip -j DROP`
-
+    ```shell
+    iptables -A INPUT -p tcp --destination-port 13327 \\! -d $ip -j DROP
+    iptables -A INPUT -p tcp --destination-port 4444 \\! -d $ip -j DROP
+    ```
 Information Gathering & Vulnerability Scanning
 ===============================================================================================================================
 

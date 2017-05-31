@@ -44,8 +44,9 @@ Linux 101
 ===============================================================================================================================
 
 -   Set the Target IP Address to the $ip system variable  
-    `export ip=192.168.1.100`
-
+    ```shell 
+    export ip=192.168.1.100`
+    ```
 -   Find the location of a file  
     `locate sbd.exe`
 
@@ -63,8 +64,9 @@ Linux 101
     `passwd`
 
 -   Verify a service is running and listening  
-    `netstat -antp |grep apache`
-
+    ```shell
+    netstat -antp |grep apache`
+    ```
 -   Start a service  
     `systemctl start ssh  `
     `systemctl start apache2`

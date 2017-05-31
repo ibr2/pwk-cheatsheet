@@ -42,43 +42,40 @@
 
 Linux 101
 ===============================================================================================================================
+```shell
+# Set the Target IP Address to the $ip system variable  
+$ export ip=192.168.1.100
 
--   Set the Target IP Address to the $ip system variable  
-    ```shell 
-    export ip=192.168.1.100`
-    ```
--   Find the location of a file  
-    `locate sbd.exe`
+# Find the location of a file  
+$ locate sbd.exe
 
--   Search through directories in the $PATH environment variable  
-    `which sbd`
+# Search through directories in the $PATH environment variable  
+$ which sbd
 
--   Find a search for a file that contains a specific string in it’s
-    name:  
-    `find / -name sbd\*`
+# Find a search for a file that contains a specific string in it’s name  
+$ find / -name sbd\*
 
--   Show active internet connections  
-    `netstat -lntp`
+# Show active internet connections  
+$ netstat -lntp
 
--   Change Password  
-    `passwd`
+# Change Password  
+$ passwd
 
--   Verify a service is running and listening  
-    ```shell
-    netstat -antp |grep apache`
-    ```
--   Start a service  
-    `systemctl start ssh  `
-    `systemctl start apache2`
+# Verify a service is running and listening  
+$ netstat -antp |grep apache
 
--   Unzip a gz file  
-    `gunzip access.log.gz`
+# Start a service  
+$ systemctl start ssh
+$ systemctl start apache2
 
--   Unzip a tar.gz file  
-    `tar -xzvf file.tar.gz`
+# Unzip a gz file  
+$ gunzip access.log.gz
 
+# Unzip a tar.gz file  
+$ tar -xzvf file.tar.gz
+```
 -   Search command history  
-    `history | grep phrase\_to\_search\_for`
+    ```shell history | grep phrase\_to\_search\_for```
 
 -   Have a service start at boot  
     `systemctl enable ssh`
@@ -90,8 +87,8 @@ Linux 101
     `wget [www.cisco.com](http://www.cisco.com)`
 
 -   Open a webpage  
-    `curl [www.cisco.com](http://www.cisco.com)`
-
+    `curl [www.cisco.com](http://www.cisco.com)
+   
 -   String manipulation
 
     -   Count number of lines in file  

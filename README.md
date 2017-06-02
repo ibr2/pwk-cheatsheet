@@ -42,36 +42,45 @@
 
 Linux 101
 ===============================================================================================================================
-```shell
 # Set the Target IP Address to the $ip system variable  
+```shell
 $ export ip=192.168.1.100
-
+```
 # Find the location of a file  
+```shell
 $ locate sbd.exe
-
+```
 # Search through directories in the $PATH environment variable  
+```shell
 $ which sbd
-
+```
 # Find a search for a file that contains a specific string in it’s name  
+```shell
 $ find / -name sbd\*
-
+```
 # Show active internet connections  
+```shell
 $ netstat -lntp
-
+```
 # Change Password  
+```shell
 $ passwd
-
+```
 # Verify a service is running and listening  
+```shell
 $ netstat -antp |grep apache
-
+```
 # Start a service  
+```shell
 $ systemctl start ssh
 $ systemctl start apache2
-
+```
 # Unzip a gz file  
+```shell
 $ gunzip access.log.gz
-
+```
 # Unzip a tar.gz file  
+```shell
 $ tar -xzvf file.tar.gz
 ```
 -   Search command history  
